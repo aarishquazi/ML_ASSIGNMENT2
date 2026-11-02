@@ -27,7 +27,7 @@
 \newcommand{\pp}{\,\mathrm{pp}}
 \newcommand{\samme}{\textsc{SAMME}}
 \title{Decision Trees, Bagging, and Multiclass \samme{} on Olivetti Faces: Robustness and Measured Bias--Variance}
-\author{Aarish Quazi\\Roll No. M26MER008\\Indian Institute of Technology Jodhpur\\\small GitHub: \url{https://github.com/aarishquazi/ML_ASSIGNMENT2}\\\small Final GitHub commit: \texttt{PENDING\_AFTER\_PUSH}}
+\author{Aarish Quazi\\Roll No. M26MER008\\Indian Institute of Technology Jodhpur\\\small GitHub: \url{https://github.com/aarishquazi/ML_ASSIGNMENT2}\\\small Final GitHub commit: \texttt{0f344a62a0bb94ea2987cf90b1543de24a17b052}}
 \date{}
 \begin{document}
 \maketitle
@@ -330,7 +330,7 @@ SAMME & 40.00 & 45.00 & 0.8801 & \textbf{0.0180}\\
 \end{figure}
 
 \section{Conclusion and Reproducibility Notes}
-On this fixed split, bagging is the strongest classifier by clean test accuracy and is the most stable when stability is measured as the standard deviation of accuracy over 30 refits. SAMME has the smallest prediction-vector variance, but that concentration around incorrect predictions accompanies high bias and lower accuracy. Increasing tree depth does not make bagging's accuracy gain increase monotonically: the selected-depth case improves more than the deeper case, despite the latter's slightly greater variance reduction. The saved split, executed notebook, configurations, CSV/JSON logs, figure-generation script, environment files, and exact commands are packaged with the submission. The GitHub URL on page one is a placeholder until the local repository is pushed to a user-owned remote; the displayed hash identifies the packaged local commit.
+On this fixed split, bagging is the strongest classifier by clean test accuracy and is the most stable when stability is measured as the standard deviation of accuracy over 30 refits. SAMME has the smallest prediction-vector variance, but that concentration around incorrect predictions accompanies high bias and lower accuracy. Increasing tree depth does not make bagging's accuracy gain increase monotonically: the selected-depth case improves more than the deeper case, despite the latter's slightly greater variance reduction. The saved split, executed notebook, configurations, CSV/JSON logs, figure-generation script, environment files, and exact commands are packaged with the submission. The GitHub URL and commit hash on page one identify the submitted repository revision provided for this report.
 
 \clearpage
 \begin{thebibliography}{9}
